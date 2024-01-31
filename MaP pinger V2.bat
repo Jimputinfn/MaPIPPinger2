@@ -1,4 +1,4 @@
-title MaP Pinger - Made by Jimputin
+title MAP PINGER - Made by Jimputinfn
 echo off & cls
 color a
 con lines=20 cols=70
@@ -7,7 +7,7 @@ echo  000000
 echo  010100
 echo ........
                                                                                             
-set /p IP=Enter THE IP ADDRESS:
+set /p IP=ENTER THE IP ADDRESS HERE:
 echo.
 :rainbow
 PING -n 1 %IP% | FIND "TTL="
